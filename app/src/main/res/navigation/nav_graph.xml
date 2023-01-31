@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loudingFragment">
+
+    <fragment
+        android:id="@+id/zugFragment"
+        android:name="log.zug.main.modeljson.fragments.FragmentZug"
+        android:label="fragment_zug"
+        tools:layout="@layout/fragment_zug" >
+        <action
+            android:id="@+id/action_zugFragment_to_colculutorFragment"
+            app:destination="@id/colculutorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loudingFragment"
+        android:name="log.zug.main.modeljson.fragments.LoudingFragment"
+        android:label="fragment_louding"
+        tools:layout="@layout/fragment_louding" >
+        <action
+            android:id="@+id/action_loudingFragment_to_blackFragment"
+            app:destination="@id/blackFragment" />
+        <action
+            android:id="@+id/action_loudingFragment_to_zugFragment"
+            app:destination="@id/zugFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/blackFragment"
+        android:name="log.zug.main.modeljson.fragments.BlackFragment"
+        android:label="fragment_black"
+        tools:layout="@layout/fragment_black" />
+    <fragment
+        android:id="@+id/colculutorFragment"
+        android:name="log.zug.main.modeljson.fragments.ColculutorFragment"
+        android:label="fragment_colculutor"
+        tools:layout="@layout/fragment_colculutor" >
+        <action
+            android:id="@+id/action_colculutorFragment_to_zugFragment"
+            app:destination="@id/zugFragment" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="cource"
+            app:argType="string" />
+    </fragment>
+</navigation>

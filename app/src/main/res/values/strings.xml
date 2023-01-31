@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">qestion1</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="text_start_game">Wypełnij ankietę i uzyskaj pełny dostęp do dochodu pasywnego z PGNIG Invest.</string>
+
+    <string name="qestion_1">Ile masz lat?</string>
+    <string name="qestion_2">Jaki jest Twój cel finansowy?</string>
+    <string name="qestion_3">Gdzie planujesz wydać pierwsze zarobione pieniądze?</string>
+    <string name="qestion_4">Ile czasu chcesz poświęcić na zarabianie?</string>
+    <string name="qestion_5">Czy jesteś gotowy zainwestować w handel? W końcu, jak wiadomo, żeby coś dostać, trzeba coś zainwestować.</string>
+
+    <string name="button_1_1">18-25</string>
+    <string name="button_1_2">25-35</string>
+    <string name="button_1_3">35-45</string>
+    <string name="button_1_4">45</string>
+
+    <string name="button_2_1">Zapewnij sobie i rodzinie</string>
+    <string name="button_2_2">twórz własną poduszkę finansową</string>
+    <string name="button_2_3">Kup dom lub samochód</string>
+    <string name="button_2_4">Bądź niezależny finansow</string>
+
+    <string name="button_3_1">Spłać pożyczki/długi</string>
+    <string name="button_3_2">Kupię to o czym od dawna marzyłe</string>
+    <string name="button_3_3">Zamierzam podróżować</string>
+    <string name="button_3_4">Ponownie zainwestuję pieniądze, aby zwiększyć kapitał</string>
+
+    <string name="button_4_1">Kilka godzin dziennie</string>
+    <string name="button_4_2">Cały dzień</string>
+    <string name="button_4_3">Jeden dzień w tygodniu</string>
+    <string name="button_4_4">Jeden dzień w miesiącu</string>
+
+    <string name="button_5_1">Tak jestem gotowy</string>
+    <string name="button_5_2">Chciałbym, ale nie wiem czy to zadział</string>
+    <string name="button_5_3">Już inwestuję i otrzymuję dywidendy</string>
+    <string name="button_5_4">Nie, nie chcę inwestować</string>
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+</resources>
